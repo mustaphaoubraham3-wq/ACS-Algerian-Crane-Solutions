@@ -1,0 +1,17 @@
+@media (max-width: 760px) {
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .site-nav {
+    gap: 10px 14px;
+  }
+
+  .hero {
+    min-height: 76vh;
+    background:
+      linear-gradient(90deg, rgba(13, 80, 84, 0.86), rgba(13, 80, 84, 0.45)),
+      url("../images/hero/hero-mobile.webp") center / cover;
+  }
+}
